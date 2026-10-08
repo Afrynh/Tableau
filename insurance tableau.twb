@@ -1,0 +1,985 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0819.2015                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='c3b04804015c169e8ef614db28abd6652564be6afd2f5c726eb3d83b84769f29' _.fcp.WorkbookFingerprinting.true...creator-author-id='c3b04804015c169e8ef614db28abd6652564be6afd2f5c726eb3d83b84769f29' _.fcp.WorkbookFingerprinting.true...creator-license-type='free' _.fcp.WorkbookFingerprinting.true...creator-machine-id='be8b375235a4820e130b80ce71aa4ed20b9af3d82b13e2c0ee7ff7eaea56d38f' _.fcp.WorkbookFingerprinting.true...license-type='free' _.fcp.WorkbookFingerprinting.true...machine-id='be8b375235a4820e130b80ce71aa4ed20b9af3d82b13e2c0ee7ff7eaea56d38f' original-version='18.1' source-build='2026.2.2 (20262.26.0819.2015)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='insurance (insurance)' inline='true' name='federated.0u27khu1httnfm1cdjpmb1gy1yhm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='insurance' name='excel-direct.0sobya004rf4gd1g0f4pg1vnswnp'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ADMIN/Downloads/insurance.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0sobya004rf4gd1g0f4pg1vnswnp' name='insurance' table='[insurance$]' type='table'>
+          <columns gridOrigin='A1:AM1001:no:A1:AM1001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='months_as_customer' ordinal='0' />
+            <column datatype='integer' name='age' ordinal='1' />
+            <column datatype='integer' name='policy_number' ordinal='2' />
+            <column datatype='date' name='policy_bind_date' ordinal='3' />
+            <column datatype='string' name='policy_state' ordinal='4' />
+            <column datatype='string' name='policy_csl' ordinal='5' />
+            <column datatype='integer' name='policy_deductable' ordinal='6' />
+            <column datatype='real' name='policy_annual_premium' ordinal='7' />
+            <column datatype='integer' name='umbrella_limit' ordinal='8' />
+            <column datatype='integer' name='insured_zip' ordinal='9' />
+            <column datatype='string' name='insured_sex' ordinal='10' />
+            <column datatype='string' name='insured_education_level' ordinal='11' />
+            <column datatype='string' name='insured_occupation' ordinal='12' />
+            <column datatype='string' name='insured_hobbies' ordinal='13' />
+            <column datatype='string' name='insured_relationship' ordinal='14' />
+            <column datatype='integer' name='capital-gains' ordinal='15' />
+            <column datatype='integer' name='capital-loss' ordinal='16' />
+            <column datatype='date' name='incident_date' ordinal='17' />
+            <column datatype='string' name='incident_type' ordinal='18' />
+            <column datatype='string' name='collision_type' ordinal='19' />
+            <column datatype='string' name='incident_severity' ordinal='20' />
+            <column datatype='string' name='authorities_contacted' ordinal='21' />
+            <column datatype='string' name='incident_state' ordinal='22' />
+            <column datatype='string' name='incident_city' ordinal='23' />
+            <column datatype='string' name='incident_location' ordinal='24' />
+            <column datatype='integer' name='incident_hour_of_the_day' ordinal='25' />
+            <column datatype='integer' name='number_of_vehicles_involved' ordinal='26' />
+            <column datatype='string' name='property_damage' ordinal='27' />
+            <column datatype='integer' name='bodily_injuries' ordinal='28' />
+            <column datatype='integer' name='witnesses' ordinal='29' />
+            <column datatype='string' name='police_report_available' ordinal='30' />
+            <column datatype='integer' name='total_claim_amount' ordinal='31' />
+            <column datatype='integer' name='injury_claim' ordinal='32' />
+            <column datatype='integer' name='property_claim' ordinal='33' />
+            <column datatype='integer' name='vehicle_claim' ordinal='34' />
+            <column datatype='string' name='auto_make' ordinal='35' />
+            <column datatype='string' name='auto_model' ordinal='36' />
+            <column datatype='date' date-parse-format='yyyy' name='auto_year' ordinal='37' />
+            <column datatype='string' name='fraud_reported' ordinal='38' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AM1001:no:A1:AM1001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>months_as_customer</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[months_as_customer]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>months_as_customer</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[policy_number]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>policy_number</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_bind_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[policy_bind_date]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>policy_bind_date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[policy_state]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>policy_state</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_csl</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[policy_csl]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>policy_csl</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_deductable</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[policy_deductable]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>policy_deductable</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_annual_premium</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[policy_annual_premium]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>policy_annual_premium</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>umbrella_limit</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[umbrella_limit]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>umbrella_limit</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insured_zip</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[insured_zip]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>insured_zip</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insured_sex</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[insured_sex]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>insured_sex</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insured_education_level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[insured_education_level]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>insured_education_level</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insured_occupation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[insured_occupation]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>insured_occupation</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insured_hobbies</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[insured_hobbies]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>insured_hobbies</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insured_relationship</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[insured_relationship]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>insured_relationship</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>capital-gains</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[capital-gains]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>capital-gains</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>capital-loss</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[capital-loss]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>capital-loss</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[incident_date]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_date</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[incident_type]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_type</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>collision_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[collision_type]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>collision_type</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_severity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[incident_severity]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_severity</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>authorities_contacted</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[authorities_contacted]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>authorities_contacted</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[incident_state]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_state</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[incident_city]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_city</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[incident_location]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_location</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incident_hour_of_the_day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[incident_hour_of_the_day]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>incident_hour_of_the_day</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_vehicles_involved</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_of_vehicles_involved]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>number_of_vehicles_involved</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>property_damage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[property_damage]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>property_damage</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bodily_injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bodily_injuries]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>bodily_injuries</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>witnesses</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[witnesses]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>witnesses</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>police_report_available</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[police_report_available]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>police_report_available</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_claim_amount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_claim_amount]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>total_claim_amount</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>injury_claim</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[injury_claim]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>injury_claim</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>property_claim</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[property_claim]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>property_claim</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vehicle_claim</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[vehicle_claim]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>vehicle_claim</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>auto_make</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[auto_make]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>auto_make</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>auto_model</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[auto_model]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>auto_model</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>auto_year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[auto_year]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>auto_year</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fraud_reported</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[fraud_reported]</local-name>
+            <parent-name>[insurance]</parent-name>
+            <remote-alias>fraud_reported</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Date' datatype='date' name='[Calculation_0469269811183616]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='MAKEDATE(INT([auto_year]),1,1)' />
+      </column>
+      <column caption='insurance' datatype='table' name='[__tableau_internal_object_id__].[insurance_9D402F0432794E118CBF80ECB792E480]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Authorities Contacted' datatype='string' name='[authorities_contacted]' role='dimension' type='nominal' />
+      <column caption='Auto Make' datatype='string' name='[auto_make]' role='dimension' type='nominal' />
+      <column caption='Auto Model' datatype='string' name='[auto_model]' role='dimension' type='nominal' />
+      <column caption='Auto Year' datatype='date' name='[auto_year]' role='dimension' type='quantitative' />
+      <column caption='Bodily Injuries' datatype='integer' name='[bodily_injuries]' role='measure' type='quantitative' />
+      <column caption='Capital-Gains' datatype='integer' name='[capital-gains]' role='measure' type='quantitative' />
+      <column caption='Capital-Loss' datatype='integer' name='[capital-loss]' role='measure' type='quantitative' />
+      <column caption='Collision Type' datatype='string' name='[collision_type]' role='dimension' type='nominal' />
+      <column caption='Fraud Reported' datatype='string' name='[fraud_reported]' role='dimension' type='nominal' />
+      <column caption='Incident City' datatype='string' name='[incident_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Incident Date' datatype='date' name='[incident_date]' role='dimension' type='ordinal' />
+      <column caption='Incident Hour Of The Day' datatype='integer' name='[incident_hour_of_the_day]' role='dimension' type='quantitative' />
+      <column caption='Incident Location' datatype='string' name='[incident_location]' role='dimension' type='nominal' />
+      <column caption='Incident Severity' datatype='string' name='[incident_severity]' role='dimension' type='nominal' />
+      <column caption='Incident State' datatype='string' name='[incident_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Incident Type' datatype='string' name='[incident_type]' role='dimension' type='nominal' />
+      <column caption='Injury Claim' datatype='integer' name='[injury_claim]' role='measure' type='quantitative' />
+      <column caption='Insured Education Level' datatype='string' name='[insured_education_level]' role='dimension' type='nominal' />
+      <column caption='Insured Hobbies' datatype='string' name='[insured_hobbies]' role='dimension' type='nominal' />
+      <column caption='Insured Occupation' datatype='string' name='[insured_occupation]' role='dimension' type='nominal' />
+      <column caption='Insured Relationship' datatype='string' name='[insured_relationship]' role='dimension' type='nominal' />
+      <column caption='Insured Sex' datatype='string' name='[insured_sex]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Insured Zip' datatype='integer' default-format='*00000' name='[insured_zip]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column caption='Months As Customer' datatype='integer' name='[months_as_customer]' role='measure' type='quantitative' />
+      <column caption='Number Of Vehicles Involved' datatype='integer' name='[number_of_vehicles_involved]' role='measure' type='quantitative' />
+      <column caption='Police Report Available' datatype='string' name='[police_report_available]' role='dimension' type='nominal' />
+      <column caption='Policy Annual Premium' datatype='real' name='[policy_annual_premium]' role='measure' type='quantitative' />
+      <column caption='Policy Bind Date' datatype='date' name='[policy_bind_date]' role='dimension' type='ordinal' />
+      <column caption='Policy Csl' datatype='string' name='[policy_csl]' role='dimension' type='nominal' />
+      <column caption='Policy Deductable' datatype='integer' name='[policy_deductable]' role='measure' type='quantitative' />
+      <column caption='Policy Number' datatype='integer' name='[policy_number]' role='dimension' type='ordinal' />
+      <column caption='Policy State' datatype='string' name='[policy_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Property Claim' datatype='integer' name='[property_claim]' role='measure' type='quantitative' />
+      <column caption='Property Damage' datatype='string' name='[property_damage]' role='dimension' type='nominal' />
+      <column caption='Total Claim Amount' datatype='integer' name='[total_claim_amount]' role='measure' type='quantitative' />
+      <column caption='Umbrella Limit' datatype='integer' name='[umbrella_limit]' role='measure' type='quantitative' />
+      <column caption='Vehicle Claim' datatype='integer' name='[vehicle_claim]' role='measure' type='quantitative' />
+      <column caption='Witnesses' datatype='integer' name='[witnesses]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='insurance' id='insurance_9D402F0432794E118CBF80ECB792E480'>
+            <properties context=''>
+              <relation connection='excel-direct.0sobya004rf4gd1g0f4pg1vnswnp' name='insurance' table='[insurance$]' type='table'>
+                <columns gridOrigin='A1:AM1001:no:A1:AM1001:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='months_as_customer' ordinal='0' />
+                  <column datatype='integer' name='age' ordinal='1' />
+                  <column datatype='integer' name='policy_number' ordinal='2' />
+                  <column datatype='date' name='policy_bind_date' ordinal='3' />
+                  <column datatype='string' name='policy_state' ordinal='4' />
+                  <column datatype='string' name='policy_csl' ordinal='5' />
+                  <column datatype='integer' name='policy_deductable' ordinal='6' />
+                  <column datatype='real' name='policy_annual_premium' ordinal='7' />
+                  <column datatype='integer' name='umbrella_limit' ordinal='8' />
+                  <column datatype='integer' name='insured_zip' ordinal='9' />
+                  <column datatype='string' name='insured_sex' ordinal='10' />
+                  <column datatype='string' name='insured_education_level' ordinal='11' />
+                  <column datatype='string' name='insured_occupation' ordinal='12' />
+                  <column datatype='string' name='insured_hobbies' ordinal='13' />
+                  <column datatype='string' name='insured_relationship' ordinal='14' />
+                  <column datatype='integer' name='capital-gains' ordinal='15' />
+                  <column datatype='integer' name='capital-loss' ordinal='16' />
+                  <column datatype='date' name='incident_date' ordinal='17' />
+                  <column datatype='string' name='incident_type' ordinal='18' />
+                  <column datatype='string' name='collision_type' ordinal='19' />
+                  <column datatype='string' name='incident_severity' ordinal='20' />
+                  <column datatype='string' name='authorities_contacted' ordinal='21' />
+                  <column datatype='string' name='incident_state' ordinal='22' />
+                  <column datatype='string' name='incident_city' ordinal='23' />
+                  <column datatype='string' name='incident_location' ordinal='24' />
+                  <column datatype='integer' name='incident_hour_of_the_day' ordinal='25' />
+                  <column datatype='integer' name='number_of_vehicles_involved' ordinal='26' />
+                  <column datatype='string' name='property_damage' ordinal='27' />
+                  <column datatype='integer' name='bodily_injuries' ordinal='28' />
+                  <column datatype='integer' name='witnesses' ordinal='29' />
+                  <column datatype='string' name='police_report_available' ordinal='30' />
+                  <column datatype='integer' name='total_claim_amount' ordinal='31' />
+                  <column datatype='integer' name='injury_claim' ordinal='32' />
+                  <column datatype='integer' name='property_claim' ordinal='33' />
+                  <column datatype='integer' name='vehicle_claim' ordinal='34' />
+                  <column datatype='string' name='auto_make' ordinal='35' />
+                  <column datatype='string' name='auto_model' ordinal='36' />
+                  <column datatype='date' date-parse-format='yyyy' name='auto_year' ordinal='37' />
+                  <column datatype='string' name='fraud_reported' ordinal='38' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='insurance (insurance)' name='federated.0u27khu1httnfm1cdjpmb1gy1yhm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0u27khu1httnfm1cdjpmb1gy1yhm'>
+            <column caption='Capital-Gains' datatype='integer' name='[capital-gains]' role='measure' type='quantitative' />
+            <column-instance column='[policy_bind_date]' derivation='Day' name='[dy:policy_bind_date:qk]' pivot='key' type='quantitative' />
+            <column caption='Policy Bind Date' datatype='date' name='[policy_bind_date]' role='dimension' type='ordinal' />
+            <column-instance column='[capital-gains]' derivation='Sum' name='[sum:capital-gains:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0u27khu1httnfm1cdjpmb1gy1yhm].[sum:capital-gains:qk]</rows>
+        <cols>[federated.0u27khu1httnfm1cdjpmb1gy1yhm].[dy:policy_bind_date:qk]</cols>
+      </table>
+      <simple-id uuid='{253751D3-810F-4685-BBEC-52E6D2479FC2}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0u27khu1httnfm1cdjpmb1gy1yhm].[tyr:auto_year:qk]</field>
+            <field>[federated.0u27khu1httnfm1cdjpmb1gy1yhm].[yr:policy_bind_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E79B8CD9-F511-4189-8821-03F593B33739}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
